@@ -12,6 +12,18 @@
 3. If Mega Download Is Running, Don't Put Torrents Or Direct Link Mirror With It , Crashes Sometime.
 4. We Recommand One Download At Time , If You Have Multicore Instance Or Vps You Can Try Multiple Download At A Time.
 
+# [A Guide On How To Customise Bot Further for Personal Use.](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#a-guide-on-how-to-customise-bot-further-for-personal-use)
+### Added A Small Guide Which Has The Following :-
+1. [Customising Bot /start Message](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Customising-Bot-start-Message)
+2. [Changing Bot Commands](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Changing-Bot-Commands)
+3. [Changing Max Allowed Downloads & Set Auto Cancel Time If No Seeders Available](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Changing-Max-Allowed-Downloads-and-Set-Auto-Cancel-Time-If-No-Seeders-Available)
+4. [Customising Bot Message When Bot Auto Cancels the Torrent Due to No Seeders are Available](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Customising-Bot-Message-When-Bot-Auto-Cancels-the-Torrent-Due-to-No-Seeders-are-Available)
+5. [Customising Bot Stats Message](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Customising-Bot-Stats-Message)
+6. [Customising Mirror Status](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Customising-Mirror-Status)
+7. [Customising Mirror Progress Bar](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Customising-Mirror-Progress-Bar)
+8. [Customising Bot status Message](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Customising-Bot-status-Message)
+9. [Customising Bot After Download Complete Message](https://github.com/iamLiquidX/MirrorX/blob/master/modificaton.md#Customising-Bot-After-Download-Complete-Message)
+
 # Another Important Thing, Always Give Credit. These People/Devs Have Worked Really Hard Without Incentive To Make These Awesome Bots. Give Them Respect.
 
 All The Credits To Real Owners Who Made And Modified This Amazing Bot. Sir lzzy12,Sir ZeroCool Aka Jaskaran ,Sir Magneto And Some Unkown Users Of Git. #Check Credits Below For Full Credit Details.
@@ -144,6 +156,7 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **OWNER_ID** : The Telegram user ID (not username) of the owner of the bot
 - **AUTO_DELETE_MESSAGE_DURATION** : Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages
 - **IS_TEAM_DRIVE** : (Optional field) Set to "True" if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.
+- **AUTHORIZED_CHATS** : (Optional field) Write all the User and Group ID's you want to authorize Bot Separated by Space  (Example : "123456789 987654321 -1001234567890")  Bot Can Distinguish Between User ID and Group Id & Allow only users to Restart the bot while Group IDs can't Restart the Bot.
 - **USE_SERVICE_ACCOUNTS**: (Optional field) (Leave empty if unsure) Whether to use service accounts or not. For this to work see  "Using service accounts" section below.
 - **INDEX_URL** : (Optional field) Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'
 - **API_KEY** : This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes.
